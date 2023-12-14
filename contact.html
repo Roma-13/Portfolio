@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/contact.css">
+    <script src="script.js"></script>
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="nav">
+        <div class="logo">
+            <h2>Roma Asieshvili</h2>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>  
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+                <button type="submit" onclick="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
